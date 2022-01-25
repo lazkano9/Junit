@@ -15,6 +15,7 @@ class passangerTest {
 	private Flight f2;
 	private Passenger julen;
 	private Passenger olatz;
+	private Passenger miren;
 
 	@BeforeEach
 	void setUp() {
@@ -22,6 +23,7 @@ class passangerTest {
 		f2 = new Flight("VF", 0);
 		julen = new Passenger("id1", "julen", "ES");
 		olatz = new Passenger("id2", "olatz", "ES");
+		miren = new Passenger("id3", "miren", "ES");
 		//julen.setFlight(f1);
 	}
 	
