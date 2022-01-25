@@ -33,14 +33,10 @@ public class Flight {
     private int seats;
     private Set<Passenger> passengers = new HashSet<>();
 
-    private static String flightNumberRegex = "^[A-Z]{2}\\d{3,4}$";
-    private static Pattern pattern = Pattern.compile(flightNumberRegex);
+    
 
     public Flight(String flightNumber, int seats) {
-      /*  Matcher matcher = pattern.matcher(flightNumber);
-        if (!matcher.matches()) {
-            throw new RuntimeException("Invalid flight number");
-        }*/
+      
         this.flightNumber = flightNumber;
         this.seats = seats;
     }
