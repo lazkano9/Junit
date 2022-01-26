@@ -24,7 +24,6 @@ class passangerTest {
 		julen = new Passenger("id1", "julen", "ES");
 		olatz = new Passenger("id2", "olatz", "ES");
 		miren = new Passenger("id3", "miren", "ES");
-		//julen.setFlight(f1);
 	}
 	
 	

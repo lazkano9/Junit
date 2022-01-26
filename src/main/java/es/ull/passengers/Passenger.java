@@ -31,7 +31,16 @@ public class Passenger {
     private String name;
     private String countryCode;
     private Flight flight;
-
+    
+    /** @brief hemen ere berdin.
+     * hau brief da
+     * 
+	 * ... text ...
+	 
+     * @param[in]  identifier  The memory area to copy from.
+     * @param[in]  name    The number of bytes to copy
+     * @param[in]  countryCode    The number of bytes to copy
+     */
     public Passenger(String identifier, String name, String countryCode) {
         if (!Arrays.asList(Locale.getISOCountries()).contains(countryCode)) {
             throw new RuntimeException("Invalid country code");
@@ -52,8 +61,11 @@ public class Passenger {
 
     public String getCountryCode() {
         return countryCode;
+        
     }
-
+    
+    
+    
     public Flight getFlight() {
         return flight;
     }
@@ -72,6 +84,11 @@ public class Passenger {
             }
         }
     }
+    
+  
+	
+    
+    
 
     public void setFlight(Flight flight) {
         this.flight = flight;

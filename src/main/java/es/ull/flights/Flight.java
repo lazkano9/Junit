@@ -28,21 +28,35 @@ import java.util.regex.Pattern;
 import es.ull.passengers.Passenger;
 
 public class Flight {
+	
+	
 
     private String flightNumber;
     private int seats;
     private Set<Passenger> passengers = new HashSet<>();
 
+    /*! \brief Brief description. Kaixo ta hau luzatu dezket nahi deten guztia
+     *         Brief description continued.
+     *         Eta lerro txuria ez badet uzten jarraituko du
+     *
+     *  Detailed description starts here.
+     *  
+     *  \author    JULEN LAZKANO ITURRIOZ
+     */
+    
+    
     
 
     public Flight(String flightNumber, int seats) {
       
         this.flightNumber = flightNumber;
         this.seats = seats;
+
     }
 
     public String getFlightNumber() {
         return flightNumber;
+        
     }
 
     public int getNumberOfPassengers() {
